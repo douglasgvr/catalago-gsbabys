@@ -1,0 +1,22 @@
+.topbar {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  background-color: blueviolet;
+  color: #ffffff;
+  /* font-weight: 700; */
+
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .topbar {
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem;
+  }
+}

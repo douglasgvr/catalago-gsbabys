@@ -1,0 +1,24 @@
+.menu-marcas {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  background-color: #f7fafc;
+  border-top: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-item {
+  font-size: 1rem;
+  font-weight: 500;
+  color: blueviolet;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.menu-item:hover {
+  color: #2f855a;
+  font-weight: 700;
+}

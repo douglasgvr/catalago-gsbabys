@@ -1,0 +1,24 @@
+.logo {
+  font-family: "Fredoka", cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2f855a;
+  padding: 16px;
+}
+
+.logo-1 {
+  color: blueviolet;
+  font-size: 72px;
+}
+
+.logo-2 {
+  line-height: 1;
+  font-size: 72px;
+}
+
+.logo-3 {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+  font-size: 20px;
+}

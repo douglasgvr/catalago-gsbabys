@@ -4,8 +4,8 @@
   gap: 1.5rem;
   padding: 1rem 0;
   background-color: #f7fafc;
-  border-top: 2px solid blueviolet;
-  border-bottom: 2px solid blueviolet;
+  border-top: 2px solid #b68ae4;
+  border-bottom: 2px solid #b68ae4;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -13,12 +13,12 @@
 .menu-item {
   font-size: 1rem;
   font-weight: 500;
-  color: blueviolet;
+  color: #b68ae4;
   cursor: pointer;
   transition: color 0.2s;
 }
 
 .menu-item:hover {
-  color: #2f855a;
+  color: #04ccb8;
   font-weight: 700;
 }

@@ -33,8 +33,8 @@ export const produtos = [
   },
   {
     id: 5,
-    imagem: "POM-POM-XXG30-SF.png",
     marca: "Pompom",
+    imagem: "POM-POM-XXG30-SF.png",
     nome: "Fralda Pompom Hiper Protek Proteção de Mãe XXG",
     descricao: "Fralda com alta capacidade de absorção e conforto.",
     preco: 72.99,

@@ -7,9 +7,9 @@ import "./Home.css";
 export default function Home() {
   const [marcaSelecionada, setMarcaSelecionada] = useState("");
 
-  const produtosFiltrados = produtos.filter((produto) =>
-    produto.nome.toLowerCase().includes(marcaSelecionada.toLowerCase())
-  );
+  const produtosFiltrados = marcaSelecionada
+    ? produtos.filter((produto) => produto.marca === marcaSelecionada)
+    : [];
 
   return (
     <div className="produtos-grid">

@@ -1,6 +1,6 @@
 import "./MenuMarcas.css";
 
-export default function MenuMarcas() {
+export default function MenuMarcas({ onSelecionarMarca }) {
   const marcas = [
     "Pampers",
     "BabySec",
@@ -14,7 +14,11 @@ export default function MenuMarcas() {
   return (
     <nav className="menu-marcas">
       {marcas.map((marca, index) => (
-        <span key={index} className="menu-item">
+        <span
+          key={index}
+          className="menu-item"
+          onClick={() => onSelecionarMarca(marca)}
+        >
           {marca}
         </span>
       ))}

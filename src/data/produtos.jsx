@@ -10,6 +10,7 @@ export const produtos = [
   {
     id: 2,
     imagem: "POM-POM-M86SF.png",
+    marca: "Pompom",
     nome: "Fralda Pompom Hiper Protek Proteção de Mãe M",
     descricao: "Fralda com ajuste perfeito e conforto para o bebê.",
     preco: 72.99,
@@ -17,6 +18,7 @@ export const produtos = [
   {
     id: 3,
     imagem: "POM-POM-G68-SF.png",
+    marca: "Pompom",
     nome: "Fralda Pompom Hiper Protek Proteção de Mãe G",
     descricao: "Fralda com camada extra de proteção e suavidade.",
     preco: 72.99,
@@ -24,6 +26,7 @@ export const produtos = [
   {
     id: 4,
     imagem: "POM-POM-XG60-SF.png",
+    marca: "Pompom",
     nome: "Fralda Pompom Hiper Protek Proteção de Mãe XG",
     descricao: "Fralda com tecnologia que evita vazamentos.",
     preco: 72.99,
@@ -31,8 +34,41 @@ export const produtos = [
   {
     id: 5,
     imagem: "POM-POM-XXG30-SF.png",
+    marca: "Pompom",
     nome: "Fralda Pompom Hiper Protek Proteção de Mãe XXG",
     descricao: "Fralda com alta capacidade de absorção e conforto.",
     preco: 72.99,
+  },
+  {
+    id: 6,
+    imagem: "BABYSEC-HIPER-M68.jpg",
+    marca: "Babysec",
+    nome: "Fralda Babysec Hiper Proteção M",
+    descricao: "Fralda descartável com tecnologia de absorção avançada.",
+    preco: 65.99,
+  },
+  {
+    id: 7,
+    imagem: "BABYSEC-HIPER-G56.jpg",
+    marca: "Babysec",
+    nome: "Fralda Babysec Hiper Proteção G",
+    descricao: "Fralda com ajuste anatômico e conforto para o bebê.",
+    preco: 65.99,
+  },
+  {
+    id: 8,
+    imagem: "BABYSEC-HIPER-XG48.jpg",
+    marca: "Babysec",
+    nome: "Fralda Babysec Hiper Proteção XG",
+    descricao: "Fralda com camada extra de proteção e suavidade.",
+    preco: 65.99,
+  },
+  {
+    id: 9,
+    imagem: "BABYSEC-HIPER-XXG36.jpg",
+    marca: "Babysec",
+    nome: "Fralda Babysec Hiper Proteção XXG",
+    descricao: "Fralda com alta capacidade de absorção e conforto.",
+    preco: 65.99,
   },
 ];

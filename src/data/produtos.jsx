@@ -49,7 +49,7 @@ export const produtos = [
   },
   {
     id: 7,
-    imagem: "BABYSEC-HIPER-G56.jpg",
+    imagem: "BABYSEC-HIPER-G68.jpg",
     marca: "Babysec",
     nome: "Fralda Babysec Hiper Proteção G",
     descricao: "Fralda com ajuste anatômico e conforto para o bebê.",
@@ -57,7 +57,7 @@ export const produtos = [
   },
   {
     id: 8,
-    imagem: "BABYSEC-HIPER-XG48.jpg",
+    imagem: "BABYSEC-HIPER-XG56.jpg",
     marca: "Babysec",
     nome: "Fralda Babysec Hiper Proteção XG",
     descricao: "Fralda com camada extra de proteção e suavidade.",
@@ -65,7 +65,7 @@ export const produtos = [
   },
   {
     id: 9,
-    imagem: "BABYSEC-HIPER-XXG36.jpg",
+    imagem: "BABYSEC-HIPER-XXG48.jpg",
     marca: "Babysec",
     nome: "Fralda Babysec Hiper Proteção XXG",
     descricao: "Fralda com alta capacidade de absorção e conforto.",

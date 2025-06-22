@@ -1,8 +1,14 @@
+.produtos-grid {
+  color: #04ccb8;
+  width: 100%;
+}
+
 .produto-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
+  align-items: center;
   padding: 2rem;
 
   width: 100%;
